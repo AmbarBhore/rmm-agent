@@ -6,7 +6,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class HealthController {
 
-    @GetMapping("/metricss")
+    @GetMapping("/health")
     public String health() {
         return "Agent v3.3 running";
     }
